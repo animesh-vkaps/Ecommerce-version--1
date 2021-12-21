@@ -8,7 +8,7 @@ router.get("/category",getAllCategory);
 //Posting categories
 
 router.post("/category/addcategory",createCategory);
-
+console.log("object");
 //Updating category
 router.put("/category/:id",updateCategory).delete(deleteCategory);
 module.exports = router;
