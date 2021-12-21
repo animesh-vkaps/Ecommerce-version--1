@@ -1,0 +1,38 @@
+.banner{
+    background-image: linear-gradient(to right,#635dc0,#3027ae);
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.banner > h1{
+    margin:5vmax;
+    font : 600 2.5vmax "Roboto"
+}
+.banner > a > button{
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    padding: 1vmax;
+    transition: 0.5s;
+    width: 9vmax;
+    font : 500 1vmax "Roboto"
+}
+.banner > a > button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+.banner::after{
+    content: "";
+    width: 100w;
+    height: 100vmin;
+    background-color: #ffffff;
+    position :absolute;
+    top: 0%;
+    left: 0;
+    clip-path: polygon(100% 83%, 15% 40%, 100% 100%);}
